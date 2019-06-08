@@ -1,5 +1,6 @@
 <!--
 https://pypi.org/project/readme-generator/
+https://pypi.org/project/python-readme-generator/
 -->
 
 [![](https://img.shields.io/badge/OS-Linux,%20MacOS,%20Unix,%20Windows-blue.svg?longCache=True)]()
@@ -23,5 +24,5 @@ decorator|description
 `@only.windows`|raise OSError in not Windows
 
 <p align="center">
-    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
 </p>
