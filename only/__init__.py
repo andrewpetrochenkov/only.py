@@ -1,6 +1,7 @@
-#!/usr/bin/env python
+__all__ = ['linux', 'mac', 'osx', 'unix', 'windows']
+
+
 import decorator
-import public
 import detect
 
 
@@ -43,6 +44,3 @@ def unix(f, *args, **kwargs):
     """`@only.unix` decorator. raise OSError in not Unix"""
     _raise_if(not detect.unix, f, "is OSX only :(")
     return f(*args, **kwargs)
-
-
-public.add(linux, mac, osx, unix, windows)
